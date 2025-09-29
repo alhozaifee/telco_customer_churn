@@ -1,17 +1,18 @@
-# Telco Customer Churn Prediction with Explainable AI
-
-**An Explainable AI solution to predict customer churn in subscription-based businesses using machine learning models, and to deliver interpretable insights via SHAP & LIME.**
-
+<h1 align="center"> Telco Customer Churn Prediction with Explainable AI</h1>
+<p align="center">
+  <em>An Explainable AI solution to predict customer churn in subscription-based businesses using machine learning models, and to deliver interpretable insights via SHAP & LIME.</em>
+</p>
+  
 ---
 
-## 1. Project Overview  
+## 📌 Project Overview  
 Customer churn is a critical risk for subscription-based businesses (e.g. telecoms). Acquiring new customers is typically more expensive than retaining existing ones.  
 
 This project develops predictive models to identify customers likely to churn and explains **why** these predictions are made using Explainable AI techniques. This combination of **prediction + interpretation** empowers businesses to make better data-driven decisions and reduce churn effectively.
 
 ---
 
-## 2. Key Highlights  
+## 🔍 Key Highlights  
 - Implemented **five ML models**: XGBoost, LightGBM, Random Forest, AdaBoost, Naïve Bayes.  
 - Compared performance using **Accuracy, Precision, Recall, F1-Score, ROC-AUC**.  
 - Achieved **highest accuracy (0.78)** with LightGBM and **best ROC-AUC (0.85)** with XGBoost.  
@@ -21,7 +22,7 @@ This project develops predictive models to identify customers likely to churn an
 
 ---
 
-## 3. Machine Learning Models & Results  
+## 🧠 Machine Learning Models & Results  
 
 | Model         | Accuracy | Precision | Recall | F1-Score | ROC-AUC | Comments |
 |---------------|----------|-----------|--------|----------|---------|----------|
@@ -38,7 +39,7 @@ This project develops predictive models to identify customers likely to churn an
 
 ---
 
-## 4. Tech Stack  
+## ⚙️ Tech Stack  
 - **Language**: Python 3.10
 - **Notebook / IDE**: Google Colab  
 #### Core Libraries
@@ -60,7 +61,7 @@ This project develops predictive models to identify customers likely to churn an
 - `collections.Counter` — handle class distributions
 ---
 
-## 5. Exploratory Data Analysis (EDA)  
+## 📊 Exploratory Data Analysis (EDA)  
 The Telco Customer Churn dataset (7,043 customers, 21 attributes) was explored to uncover patterns:  
 - **Churn distribution**: Imbalanced (approx. 26% churners, 74% non-churners).  
 - **Categorical features**: Strong churn correlation with contract type, tech support, and payment method.  
@@ -69,7 +70,7 @@ The Telco Customer Churn dataset (7,043 customers, 21 attributes) was explored t
 
 ---
 
-## 6. Model Training & Evaluation  
+## 🧪 Model Training & Evaluation  
 - **Preprocessing**:  
   - Cleaned missing/invalid values  
   - Encoded categorical variables (Label Encoding, One-Hot)  
@@ -83,7 +84,7 @@ The Telco Customer Churn dataset (7,043 customers, 21 attributes) was explored t
 
 ---
 
-## 7. Insights & Recommendations  
+## 🧠 Insights & Recommendations  
 **Insights from XAI**:  
 - Customers on **month-to-month contracts** were at the highest churn risk.  
 - **Short tenure** strongly increased churn likelihood.  
@@ -98,7 +99,7 @@ The Telco Customer Churn dataset (7,043 customers, 21 attributes) was explored t
 
 ---
 
-## 8. Repository Structure  
+## 📂 Repository Structure  
 ```text
 telco_customer_churn/
 │
