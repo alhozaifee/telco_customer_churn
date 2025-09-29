@@ -6,6 +6,7 @@
 
 ## 1. Project Overview  
 Customer churn is a critical risk for subscription-based businesses (e.g. telecoms). Acquiring new customers is typically more expensive than retaining existing ones.  
+
 This project develops predictive models to identify customers likely to churn and explains **why** these predictions are made using Explainable AI techniques. This combination of **prediction + interpretation** empowers businesses to make better data-driven decisions and reduce churn effectively.
 
 ---
